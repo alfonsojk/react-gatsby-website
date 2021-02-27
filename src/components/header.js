@@ -30,7 +30,7 @@ const Header = () => {
 export default Header
 
 const Nav = styled.nav`
-  background:red;
+  background:transparent;
   height: 80px;
   display: flex;
   justify-content: space-between;
@@ -84,6 +84,6 @@ const NavBtn = styled.div`
 
 
   @media screen and (max-width:768px){
-
+    display:none;
   }
 `

@@ -5,6 +5,6 @@ export const GlobalStyle = createGlobalStyle`
     font-family:'Roboto', sans-serif;
     margin:0;
     padding:0;
-    boz-sizing: border-box;
+    box-sizing: border-box;
 }
 `
