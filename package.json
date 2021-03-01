@@ -28,9 +28,10 @@
   },
 
   "engines" : {
-     "node" : ">=0.12"
+     "node" : "10.16.0",
+     "npm":"6.9.0"
       },
-       
+
   "keywords": [
     "gatsby"
   ],
@@ -42,7 +43,8 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "heroku-postbuild":"npm run build"
   },
   "repository": {
     "type": "git",
