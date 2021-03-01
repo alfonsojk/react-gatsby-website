@@ -1,0 +1,20 @@
+{
+    "root":"public/",
+    "headers":{
+        "*/**":{
+            "cache-control":"public, max-age=0, must-revalidate"
+        },
+        "*/**.js":{
+            "cache-control":"public, max-age=315360000, inmutable"
+        },
+        "*/static/**":{
+            "cache-control":"public, max-age=315360000, inmutable"
+        },
+        "/icons/*.png":{
+            "cache-control":"public, max-age=315360000, inmutable"
+        }
+    },
+    "https_only":true,
+    "error_page":"404.js"
+
+}
